@@ -18,7 +18,8 @@ module.exports = (sequelize, DataTypes) => {
     name: DataTypes.STRING,
     genre: DataTypes.TEXT,
     available_start_time: DataTypes.DATE,
-    end_time: DataTypes.DATE
+    end_time: DataTypes.DATE,
+    recommendation: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'Band',
